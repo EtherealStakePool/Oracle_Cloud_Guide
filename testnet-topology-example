@@ -1,0 +1,27 @@
+{
+  "LocalRoots": {
+    "groups": [
+      {
+        "localRoots": {
+          "accessPoints": [
+             { "address": "Potential Trusted Peer Ip Address", "port": XXXX, "valency": 1, "name": "Your Peer Example"},
+             { "address": "Your BP Ip Address", "port": XXXX, "valency": 1, "name": "Your BP Example"}
+          ],
+          "advertise": false
+        },
+        "valency": 2
+      }
+    ]
+  },
+  "PublicRoots": [
+    {
+      "publicRoots" : {
+        "accessPoints": [
+          { "address": "relays-new.cardano-testnet.iohkdev.io", "port": 3001, "valency": 2, "name": "IOG"}
+        ],
+        "advertise": false
+      }
+    }
+  ],
+  "useLedgerAfterSlot": 0
+}
